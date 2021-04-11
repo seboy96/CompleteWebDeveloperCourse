@@ -42,7 +42,8 @@ if (andrei_pokemon?.raichu && will_pokemon?.pikachu?.friend?.charizard) {
         console.log('walk away...')
     }
 
-
+// The nullish coalescing operator (??) is a logical operator 
+// that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
 // Exercise 4: What do these each output?
 console.log(false ?? 'hellooo') // false
 console.log(null ?? 'hellooo') // hellooo
